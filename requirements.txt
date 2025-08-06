@@ -1,0 +1,6 @@
+streamlit
+skin-tone-classifier[all]
+pillow
+opencv-python
+numpy
+Pillow
