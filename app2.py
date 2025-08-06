@@ -68,7 +68,7 @@ if uploaded_file is not None:
         # Convert BGR to RGB for Streamlit display
         image_rgb = cv2.cvtColor(image_with_box, cv2.COLOR_BGR2RGB)
 
-        st.image(image_rgb, caption="Detected Skin Tone", use_container_width=True)
+        st.image(image_rgb, caption="Detected Skin Tone")
 
         st.markdown(f"### Detected Skin Tone (RGB): `{avg_rgb}`")
         st.markdown(
@@ -93,3 +93,4 @@ if uploaded_file is not None:
             file_name="skin_tone_report.jpg",
             mime="image/jpeg"
         )
+
