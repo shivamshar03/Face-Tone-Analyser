@@ -5,3 +5,6 @@ Pillow==10.3.0
 colored==1.4.4
 colormath==3.0.0
 stone
+av
+streamlit_webrtc
+
